@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            padding: 40px 0;
+        }
+        .content-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        .calculate-btn {
+            background-color: #0d6efd;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 10px 25px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .calculate-btn:hover {
+            background-color: #0b5ed7;
+            color: #ffffff;
+        }
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Container Layout using Bootstrap container-fluid -->
+    <div class="container-fluid hero-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 content-box">
+
+                    <!-- Header Section -->
+                    <header class="text-center mb-4">
+                        <h1 class="display-5 fw-bold text-dark">Carbon Footprint Calculator</h1>
+                        <h2 class="h4 text-secondary mt-2">Climate change is real!!</h2>
+                    </header>
+
+                    <!-- Introduction Paragraph -->
+                    <section class="mb-4">
+                        <p class="lead text-muted">
+                            Human activities release millions of tons of greenhouse gases into the atmosphere every day, driving global warming and severe climate disruption. Understanding your personal carbon footprint is the first crucial step toward reducing environmental degradation and preserving natural ecosystems for future generations.
+                        </p>
+                    </section>
+
+                    <!-- Featured Image -->
+                    <div class="text-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80" 
+                             alt="Environmental sustainability and green plant growing from soil" 
+                             class="project-image shadow-sm">
+                    </div>
+
+                    <!-- Secondary Content & Call to Action -->
+                    <section class="text-center mt-4">
+                        <h4 class="fw-semibold mb-3">Ready to find out your impact? Assess your carbon footprint today!</h4>
+                        <p class="text-muted mb-4">
+                            Answer a few quick questions regarding your daily transportation, energy consumption, and lifestyle habits to calculate your total annual carbon emissions and discover personalized tips to live more sustainably.
+                        </p>
+
+                        <!-- Styled Hyperlink Button -->
+                        <a href="#calculator" class="calculate-btn">Calculate</a>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
